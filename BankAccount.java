@@ -16,7 +16,7 @@ public class BankAccount {
         // Withdraw the requested amount if sufficient funds are available.
         // Return true if the withdrawal succeeds.
         // Return false otherwise. return false;
-        if (this.balance -  amount >= 2) {
+        if (this.balance - amount >= 50) {
             this.balance -= (amount + 2);
             return true;
         }
