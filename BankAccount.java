@@ -17,7 +17,7 @@ public class BankAccount {
         // Return true if the withdrawal succeeds.
         // Return false otherwise. return false;
         if (this.balance - amount >= 50) {
-            this.balance -= amount;
+            this.balance -= (amount + 2);
             return true;
         }
         return false;
